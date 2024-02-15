@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+        <ProgressBar
+            android:id="@+id/prog"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:id="@+id/name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34dp"
+        android:hint="input your name "
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+
+        android:padding="10dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="19dp"
+        android:id="@+id/mobile1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34dp"
+        android:hint="input your mobile "
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+
+        android:padding="10dp"
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34dp"
+        android:hint="input your email "
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="my sql  database"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonbbb"
+
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="next page "
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        />
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
